@@ -35,7 +35,7 @@
   @include media($tablet) {
     text-align: left;
     @include padding($very-thick null);
-    @include span-columns(8);
+    @include span-columns(10);
   }
   @include media($desktop){
     @include span-columns(5);
@@ -86,8 +86,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 150px 150px;
-    background-image: url(https://dl.dropboxusercontent.com/u/119186462/runningforrefugees.co.uk/images/logo%20files/svg/R4R%20-%20Title%20Logo%20white%20square%20no%20border%20.svg);
-    @include span-columns(4);
+    background-image: url(https://dl.dropboxusercontent.com/u/119186462/runningforrefugees.co.uk/images/logo%20files/R4R%20-%20Footprint%20White%20Square.png);
+    @include span-columns(2);
   }
   @include media($desktop){
     @include span-columns(2);
