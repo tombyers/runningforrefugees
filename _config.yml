@@ -1,6 +1,7 @@
 # Site settings
 title: Running For Refugees
-baseurl: /runningforrefugees/
+url: www.runningforrefugees.co.uk
+baseurl:
 title: Running for Refugees
 
 # Build settings
