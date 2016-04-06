@@ -97,12 +97,11 @@
   @include shift(1);
   @include span-columns(10);
   @include media($tablet) {
-    margin-top: 50px;
+    margin-top: 60px;
     @include shift(2);
     @include span-columns(4);
   }
   @include media($desktop) {
-    margin-top: 50px;
     @include shift(4);
   }
 }

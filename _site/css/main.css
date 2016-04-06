@@ -562,7 +562,7 @@ footer {
     margin-right: 0; }
   @media screen and (min-width: 800px) {
     #social-media-wrapper {
-      margin-top: 50px;
+      margin-top: 60px;
       margin-left: 17.05961%;
       float: left;
       display: block;
@@ -572,7 +572,6 @@ footer {
         margin-right: 0; } }
   @media screen and (min-width: 1100px) {
     #social-media-wrapper {
-      margin-top: 50px;
       margin-left: 34.11922%; } }
 
 .social-media-icon {
