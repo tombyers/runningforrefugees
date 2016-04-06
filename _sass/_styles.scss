@@ -67,6 +67,12 @@
   a #donate {
     background-color: $contrast-color;
     color: #fff;
+    &:hover {
+      background-color: darken($contrast-color, 5%);
+    }
+    &:active {
+      background-color: lighten($contrast-color, 5%);;
+    }
   }
 
   a .active {
