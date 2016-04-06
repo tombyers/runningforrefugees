@@ -27,7 +27,8 @@
 
 #site-title {
   font-family: $primary-font-stack;
-  font-weight: 400;
+  font-weight: $medium-font-weight;
+  font-size: $h1;
   text-align: center;
   color: #fff;
   padding: $thick null;
@@ -43,6 +44,7 @@
 
 #site-nav {
   font-family: $primary-font-stack;
+  font-weight: $medium-font-weight;
   font-size: $h4;
   text-transform: uppercase;
   background-color: #fff;
@@ -143,11 +145,15 @@
 
   h4 {
     background-color: $primary-color;
+    font-family: $primary-font-stack;
+    font-weight: $medium-font-weight;
+    font-size: $h4;
     @include border-top-radius(5px);
     @include padding($thick null);
   }
   input[type="email"] {
     border: none;
+    font-size: $h4;
     text-align: center;
     font-family: $secondary-font-stack;
     background-color: rgba(3,169,244,0.6);
@@ -159,6 +165,9 @@
   }
   input[type="submit"] {
     background-color: $contrast-color;
+    font-family: $primary-font-stack;
+    font-weight: $medium-font-weight;
+    font-size: $h4;
     border: none;
     outline: none;
     color: #fff;
@@ -179,14 +188,21 @@
 // =======================================
 
 #intro-banner {
-  font-family: $primary-font-stack;
-  font-size: $p;
-  font-weight: normal;
-  line-height: 1.6;
-  background-color: $primary-color;
   color: white;
+  background-color: $primary-color;
   @include padding($very-thick);
   @include span-columns(12);
+
+  p {
+    font-family: $primary-font-stack;
+    font-weight: $medium-font-weight;
+    font-size: $p;
+    line-height: 1.6;
+  }
+
+
+
+
 }
 
 .embed-container {
@@ -252,6 +268,7 @@
 }
 .post-content {
   font-family: $secondary-font-stack;
+  font-size: $p;
   line-height: 2;
   @include padding($very-very-thick null);
   @include shift(1);
