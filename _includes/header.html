@@ -1,0 +1,11 @@
+<header>
+  <a href="{{ site.baseurl }}index.html"><h1 id="site-title">Running for Refugees</h1></a>
+  <a href="{{ site.baseurl}}index.html" id="site-logo"></a>
+
+
+  <ul id="site-nav">
+    <a href="{{ site.baseurl }}about"><li class="{% if page.active == "about" %}active{% endif %}">About</li></a>
+    <a href="{% for post in site.posts limit: 1 %}{{ site.baseurl }}{{ post.url }}{% endfor %}"><li class="{% if page.active == "blog" %}active{% endif %}">Blog</li></a>
+    <a target="_blank" href="https://www.justgiving.com/mattisrunningforrefugees/"><li id="donate">Donate</li></a>
+  </ul>
+</header>

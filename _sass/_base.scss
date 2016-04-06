@@ -1,0 +1,67 @@
+// =================================================
+// BASIC RESETS
+// =================================================
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {margin: 0; padding: 0;}
+
+a {text-decoration: none;}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+// =================================================
+// MARGIN & PADDING
+// =================================================
+
+$thin: 0.5em;
+$thick: 1em;
+$very-thick: 1.5em;
+$very-very-thick: 2em;
+
+
+
+// =================================================
+// TYPOGRAPHY
+// =================================================
+
+$primary-font-stack: 'Futura', sans-serif;
+$secondary-font-stack: 'Georgia', serif;
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+$h1: 28px;
+$h2: 24px ;
+$h3: 18px;
+$h4: 16px;
+$p: 16px;
+
+
+// =================================================
+// COLORS
+// =================================================
+
+$primary-color: #03A9F4;
+$secondary-color: #0277BD;
+$contrast-color: #FF6D00;
+$light-gray: #f0f0f0;
+
+
+// =================================================
+// MEDIA
+// =================================================
+
+// $tablet: new-breakpoint(min-width 600px 12);
+// $desktop: new-breakpoint(min-width 900px 12);

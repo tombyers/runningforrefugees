@@ -1,0 +1,24 @@
+---
+layout: default
+active: home
+---
+
+<div id="page-content">
+
+  <div class='embed-container'>
+    <iframe src='https://www.youtube.com/embed/-xhnOZyebok' frameborder='0' allowfullscreen></iframe>
+  </div>
+
+  <div id="intro-banner">
+    <p>This summer, I will be running the length of the UK to raise money for The Refugee Council. The charity does amazing work to support the lives of refugees and their efforts have rarely been in more urgent need.  Please <a href="https://www.justgiving.com/mattisrunningforrefugees/">donate here</a>. Thank you! Matt G.</p>
+  </div>
+
+  <div class="secondary-content">
+    <a href="{{ site.baseurl }}about"><h3>About</h3></a>
+  </div>
+
+  <div class="secondary-content">
+    <a href="{% for post in site.posts limit: 1 %}{{ site.baseurl }}{{ post.url }}{% endfor %}"><h3>Blog</h3></a>
+  </div>
+
+</div>

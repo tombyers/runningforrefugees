@@ -1,0 +1,9 @@
+# Site settings
+title: Running For Refugees
+baseurl: /runningforrefugees/
+title: Running for Refugees
+
+# Build settings
+markdown: kramdown
+
+gems: [bourbon, neat, jekyll-paginate]

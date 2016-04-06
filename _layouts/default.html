@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div id="header-wrapper">
+      {% include header.html %}
+    </div>
+
+    <div class="content-wrapper {% if page.active =="blog" %}blog-wrapper{% endif %}">
+      {{ content }}
+    </div>
+
+    <div id="footer-wrapper">
+      {% include footer.html %}
+    </div>
+
+  </body>
+
+</html>
