@@ -1,0 +1,9 @@
+---
+title: "great post!"
+active: blog
+author: Tom
+date: 2016-04-18
+---
+
+
+Some blog content
