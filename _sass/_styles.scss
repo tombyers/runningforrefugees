@@ -310,6 +310,7 @@
 .team-member-image {
   border-radius: 100%;
   border: solid 3px $contrast-color;
+  padding: $very-very-thick 0;
   @include span-columns(5);
   @include media($tablet) {
     @include shift(0);
