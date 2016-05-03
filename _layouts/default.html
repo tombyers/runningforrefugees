@@ -8,7 +8,7 @@
       {% include header.html %}
     </div>
 
-    <div class="content-wrapper {% if page.active =="blog" %}blog-wrapper{% endif %}">
+    <div class="content-wrapper {% if page.active == "blog" %}blog-wrapper{% elsif page.active == "about"%}about-wrapper{% endif %}">
       {{ content }}
     </div>
 

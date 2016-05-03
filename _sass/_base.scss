@@ -28,7 +28,9 @@ $thick: 1em;
 $very-thick: 1.5em;
 $very-very-thick: 2em;
 
+// Border Radius
 
+$curved: 5px;
 
 // =================================================
 // TYPOGRAPHY
@@ -61,11 +63,3 @@ $primary-color: #03A9F4;
 $secondary-color: #0277BD;
 $contrast-color: #FF6D00;
 $light-gray: #f0f0f0;
-
-
-// =================================================
-// MEDIA
-// =================================================
-
-// $tablet: new-breakpoint(min-width 600px 12);
-// $desktop: new-breakpoint(min-width 900px 12);
