@@ -6,7 +6,7 @@ author: Matt
 active: blog
 ---
 
-When I first started to properly think about this challenge back in the middle of 2015, I quickly realised that I was going to need a fair bit of help. Where I could stay, who would travel with me, how would these people travel, where would we stay, who could I ask to help with editing videos etc. etc. I needn’t have worried. People have been so incredibly generous and very willing to give their time, expertise or indeed money to the challenge.
+When I first started to properly think about this challenge back in the middle of 2015, I quickly realised that I was going to need a fair bit of help. Who would travel with me, how would these people travel, where would we stay, who could I ask to help with editing videos etc. etc. I needn’t have worried. People have been so incredibly generous and very willing to give their time, expertise or indeed money to the challenge.
 <br><br>
 It all started with a core group of close friends and family who very kindly agreed to lead certain areas of the challenge. You can find out more about them by visiting the [about page](http://www.runningforrefugees.co.uk/about/) (please do, they really are awesome people). With their help I was able to flesh out what the challenge would look like and how it might work.
 <br><br>
