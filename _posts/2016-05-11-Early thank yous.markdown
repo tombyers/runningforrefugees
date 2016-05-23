@@ -1,6 +1,6 @@
 ---
 layout: post
-title: “Is it too early to say thank you?!”
+title: "Is it too early to say thank you?!"
 date: 2016-05-11
 author: Matt
 active: blog
