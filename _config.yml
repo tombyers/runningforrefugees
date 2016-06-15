@@ -3,6 +3,7 @@ title: Running For Refugees
 url: www.runningforrefugees.co.uk
 baseurl: 
 title: Running for Refugees
+highlighter: rouge
 
 # Build settings
 markdown: kramdown
