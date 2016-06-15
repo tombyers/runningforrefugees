@@ -1,9 +1,0 @@
----
-layout: post
-title: "Test"
-date:   2016-06-15
-author: Matt
-active: blog
----
-I love London. I love living here, I love working here and I love running here too. Each run can be almost completely different and I enjoy getting lost in areas of the city that I haven’t fully explored.
-<br><br>
