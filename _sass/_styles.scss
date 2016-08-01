@@ -385,3 +385,57 @@
     color: #555;
   }
 }
+
+
+// =======================================
+// TRACKER STYLES
+// =======================================
+
+.tracker-wrapper {
+  width: 100%;
+  min-width: 1000px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+
+  .flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  section {
+    h1,
+    h2,
+    h3 {
+      font-family: $primary-font-stack;
+    }
+    p,
+    li {
+      font-family: $secondary-font-stack;
+    }
+  }
+}
+
+.width-50 {
+  width: 50%;
+}
+.width-100 {
+  width: 100%;
+}
+.height-50 {
+  height: 350px;
+}
+.height-100 {
+  height: 700px;
+}
+.thick-pad {
+  padding: $thick;
+}
+
+.border-light {
+  border: 1px solid #e9e9ec;
+}
