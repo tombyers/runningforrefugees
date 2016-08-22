@@ -360,7 +360,10 @@
 
 .rotary-logo {
     @include padding($thick null 0);
-    @include span-columns(6);
+    @include span-columns(12);
+    @include media($tablet) {
+      @include span-columns(6);
+    }
 }
 
 
