@@ -5,11 +5,11 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <script src="https://use.typekit.net/sji4tyw.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
   <link rel="stylesheet" href="{{ "/css/main.css" }}">
 
   {% if page.active == "tracker"%}
     <script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
     <link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
   {% endif %}
-
 </head>
