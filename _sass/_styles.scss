@@ -95,6 +95,39 @@
   }
 }
 
+#tracker-anchor {
+    background-color: $contrast-color;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transform: rotate(-30deg);
+    height: 100px;
+    width: 100px;
+    z-index: 500;
+    font-weight: $heavy-font-weight;
+    font-family: $primary-font-stack;
+    font-size: 1.2em;
+
+    bottom: 25px;
+    left: 40px;
+
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px -2px rgba(0,0,0,0.2);
+
+    a {
+        color: white;
+    }
+
+    &:hover {
+      background-color: darken($contrast-color, 5%);
+    }
+    &:active {
+      background-color: lighten($contrast-color, 5%);;
+    }
+}
+
 // =======================================
 // FOOTER STYLES
 // =======================================
@@ -323,6 +356,11 @@
   line-height: 1.5;
   @include shift(1);
   @include span-columns(6);
+}
+
+.rotary-logo {
+    @include padding($thick null 0);
+    @include span-columns(6);
 }
 
 
