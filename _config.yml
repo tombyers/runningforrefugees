@@ -1,11 +1,11 @@
 # Site settings
 title: Running For Refugees
 url: www.runningforrefugees.co.uk
-baseurl: 
+baseurl:
 title: Running for Refugees
 highlighter: rouge
 
 # Build settings
 markdown: kramdown
 
-gems: [bourbon, neat, jekyll-paginate]
+gems: [bourbon, neat]

@@ -1,3 +1,4 @@
-/_site/
-/site/
+_site
 .sass-cache
+bourbon
+neat
