@@ -62,7 +62,7 @@ var completedStyle = {
 
 
 var map = L.mapbox.map('map', 'mapbox.light');
-map.setView([52.9, -4.543], 6);
+
 
 var routeLine = L.geoJson(routeGeoJSON, {
     style: routeStyle
@@ -83,3 +83,5 @@ milestonesLayer.on('mouseout', function(e) {
     e.layer.closePopup();
 });
 
+
+map.fitBounds(routeLine.getBounds());
