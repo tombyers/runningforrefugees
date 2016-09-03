@@ -8,15 +8,16 @@
       {% include header.html %}
     </div>
 
-    <div class="content-wrapper {% if page.active == "blog" %}blog-wrapper{% elsif page.active == "about"%}about-wrapper{% elsif page.active == "tracker"%}tracker-wrapper{% endif %}">
+    <div class="content-wrapper {% if page.active == "blog" %} blog-wrapper {% elsif page.active == "about"%}about-wrapper{% elsif page.active == "tracker"%}tracker-wrapper{% endif %}">
       {{ content }}
     </div>
 
     <div id="footer-wrapper">
       {% include footer.html %}
     </div>
-    <script src="{{ "/js/tracker-map.js "}}"></script>
-    <script src="{{ "/js/ui.js "}}"></script>
+
+    <script src="/js/tracker-map.js"></script>
+
   </body>
 
 </html>

@@ -315,10 +315,9 @@
   height: 150px;
   border-radius: $curved;
   margin: $thick 0;
-  background-image: url("../images/refugeecouncil.png");
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url("../images/refugeecouncil.png") no-repeat center ;
   background-size: contain;
+
   @include span-columns(12);
   @include media($tablet) {
     @include shift(0);
@@ -389,14 +388,12 @@
   font-family: $secondary-font-stack;
   font-weight: normal;
   font-size: $h2;
-  background-color: none;
   @include shift(1);
   @include span-columns(10);
 }
 .post-meta {
   font-family: $primary-font-stack;
   font-size: $h4;
-  background-color: none;
   border-bottom: #ccc solid 1px;
   @include padding($thick null $very-very-thick);
   @include shift(1);
