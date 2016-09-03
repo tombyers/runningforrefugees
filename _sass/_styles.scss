@@ -96,37 +96,29 @@
 }
 
 #tracker-anchor {
-    background-color: $contrast-color;
-    position: fixed;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-
-    -webkit-transform: rotate(-30deg);
-
-            transform: rotate(-30deg);
-    height: 100px;
-    width: 100px;
-    z-index: 500;
-    font-weight: $heavy-font-weight;
-    font-family: $primary-font-stack;
-    font-size: 1.2em;
-    text-align: center;
-
-    bottom: 25px;
-    left: 30px;
-
-    border-radius: 50%;
-    box-shadow: 1px 1px 10px -2px rgba(0,0,0,0.2);
 
     a {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        z-index: 100;
+
+        padding: $thin 0 $thick;
+        width: 240px;
+        text-align: center;
+
+        font-weight: $heavy-font-weight;
+        font-family: $primary-font-stack;
         color: white;
+        font-size: 1.2em;
+        background-color: $contrast-color;
+        box-shadow: 0 0 10px 5px rgba(0,0,0,0.12)
+    }
+
+    img {
+        position: relative;
+        top: 8px;
+        left: 3px;
     }
 
     &:hover {
