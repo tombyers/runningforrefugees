@@ -454,9 +454,9 @@
 }
 
 .tracker-map {
-    height: 400px;
+    height: 320px;
     @include media($tablet) {
-        height: 550px;
+        height: 500px;
     }
 
     @include media($desktop) {
