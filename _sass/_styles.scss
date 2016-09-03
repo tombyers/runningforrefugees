@@ -473,6 +473,7 @@
     margin: $very-very-thick;
     max-height: 500px;
     overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
     border: 1px solid #e9e9ec;
     box-shadow: 0px 0px 5px 0 rgba(0,0,0,0.1);
 
