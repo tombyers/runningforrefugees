@@ -231,18 +231,17 @@
     text-align: center;
     font-family: $secondary-font-stack;
     background-color: rgba(3,169,244,0.6);
-    -webkit-appearance:none;
     @include span-columns(12);
     @include padding($thick null);
     &:focus {
       outline: none;
     }
+    -webkit-appearance: none;
   }
   input[type="submit"] {
     background-color: $contrast-color;
     font-family: $primary-font-stack;
     font-weight: $medium-font-weight;
-    -webkit-appearance:none;
     font-size: $h4;
     border: none;
     outline: none;
@@ -256,6 +255,7 @@
     &:active {
       background-color: lighten($contrast-color, 5%);;
     }
+    -webkit-appearance: none;
   }
 }
 
