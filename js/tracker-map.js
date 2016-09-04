@@ -39,7 +39,7 @@ var positionMarkers = {
         type: "Feature",
         properties: {
             title: "Day 1: 27 miles",
-            description: "Land's End to Pool",
+            description: "Land's End to Tuckingmill",
             icon: {
                 "iconUrl": "../images/pin.png",
                 "iconSize": [ 50, 76],
