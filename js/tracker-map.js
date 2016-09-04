@@ -38,9 +38,15 @@ var positionMarkers = {
     features: [{
         type: "Feature",
         properties: {
-            title: "Day 1: Pool",
-            "marker-color": "#03A9F4",
-            "marker-size" : "large"
+            title: "Day 1: 27 miles",
+            description: "Land's End to Pool",
+            icon: {
+                "iconUrl": "../images/pin.png",
+                "iconSize": [44,68],
+                "iconAnchor": [22, 58],
+                "popupAnchor": [0, -60]
+            }
+
         },
         geometry: {
             type: "Point",
@@ -73,6 +79,13 @@ var completeLine = L.geoJson(completedGeoJSON, {
 }).addTo(map);
 
 var milestonesLayer = L.mapbox.featureLayer().addTo(map);
+
+milestonesLayer.on('layeradd', function(e) {
+   var marker = e.layer,
+       feature = marker.feature;
+    marker.setIcon(L.icon(feature.properties.icon));
+});
+
 milestonesLayer.setGeoJSON(positionMarkers);
 
 milestonesLayer.on('mouseover', function(e) {
