@@ -2,6 +2,18 @@
 @import "layout";
 
 /* =======================================*/
+/* HELPER/PARTIALS
+/* =======================================*/
+
+.chevron-right {
+    position: relative;
+    top: 10px;
+    left: 3px;
+    transition: all 0.3s ease;
+}
+
+
+/* =======================================*/
 /* SECTION COLORS*/
 /* =======================================*/
 
@@ -138,12 +150,7 @@
     }
 }
 
-.chevron-right {
-    position: relative;
-    top: 10px;
-    left: 3px;
-    transition: all 0.3s ease;
-}
+
 
 /* =======================================*/
 /* FOOTER STYLES*/
@@ -557,10 +564,15 @@
             padding: 0.1em $very-very-thick $thin;
         }
 
-        img {
-            height: 1.7em;
-            position: relative;
-            top: 10px;
+        .strava {
+            display: none;
+            @include media($tablet) {
+                display: inline;
+                height: 1.7em;
+                position: relative;
+                top: 10px;
+            }
+
         }
 
     }
@@ -576,49 +588,10 @@
         a {
             background-color: lighten($primary-color, 5%);
         }
-
         .chevron-right {
             left: 10px;
         }
     }
-
-
-
-    //
-    // #tracker-anchor {
-    //     a {
-    //         position: fixed;
-    //         bottom: 0px;
-    //         left: 0px;
-    //         z-index: 100;
-    //
-    //         padding:  0 0 $thin;
-    //         width: 220px;
-    //         text-align: center;
-    //
-    //
-    //         background-color: $contrast-color;
-    //         box-shadow: 0 0 10px 1px rgba(0,0,0,0.12);
-    //
-    //         transition: all 0.3s ease;
-    //
-    //         @include media($tablet) {
-    //             padding: $thin 0 $thick;
-    //             width: 280px;
-    //         }
-    //     }
-    //
-    //     img {
-    //         position: relative;
-    //         top: 10px;
-    //         left: 3px;
-    //         transition: all 0.3s ease;
-    //     }
-    //
-    //
-    // }
-
-
 }
 
 
