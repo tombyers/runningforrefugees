@@ -113,26 +113,17 @@
         background-color: $contrast-color;
         box-shadow: 0 0 10px 1px rgba(0,0,0,0.12);
 
-        transition: all 0.3s ease;
-
         @include media($tablet) {
             padding: $thin 0 $thick;
             width: 280px;
         }
     }
 
-    img {
-        position: relative;
-        top: 10px;
-        left: 3px;
-        transition: all 0.3s ease;
-    }
-
     &:hover {
         a {
             background-color: darken($contrast-color, 5%);
         }
-        img {
+        .chevron-right {
             left: 8px;
         }
     }
@@ -141,10 +132,17 @@
             background-color: lighten($contrast-color, 5%);
         }
 
-        img {
+        .chevron-right {
             left: 10px;
         }
     }
+}
+
+.chevron-right {
+    position: relative;
+    top: 10px;
+    left: 3px;
+    transition: all 0.3s ease;
 }
 
 /* =======================================*/
@@ -489,13 +487,32 @@
     }
 }
 
-.metrics {
+.metrics,
+.twitter-wrapper {
     margin: $very-very-thick $very-thick;
-    padding: $thick;
+
+    @include media($desktop) {
+        margin: 0;
+        margin: $very-thick $very-thick 0;
+    }
+}
+
+
+
+
+.metrics {
+    .metrics--padded {
+        padding: $thick;
+        @include media($desktop) {
+            padding: $very-very-thick;
+        }
+    }
+
     border: 1px solid #e9e9ec;
     box-shadow: 0px 0px 5px 0 rgba(0,0,0,0.1);
     position: relative;
     line-height: 2;
+    height: 315px;
 
     h2 {
         margin-bottom: $thick;
@@ -505,39 +522,115 @@
         font-family: $secondary-font-stack;
         white-space: pre-wrap;;
     }
+}
 
-    img {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        width: 90px;
+.weather-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 90px;
 
-        @include media($tablet) {
-            width: 120px;
-            top: 25px;
-            right: 25px;
-        }
-    }
-
-    @include media($desktop) {
-        margin: 0;
-        height: 275px;
-        padding: $very-very-thick;
-        margin: $very-thick $very-thick 0;
+    @include media($tablet) {
+        width: 120px;
+        top: 25px;
+        right: 25px;
     }
 }
 
+.strava-link {
+    a {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        padding: 0.1em $thick $thin;
+
+        font-weight: $heavy-font-weight;
+        font-family: $primary-font-stack;
+        color: white;
+        font-size: 1.2em;
+        background-color: $primary-color;
+        transition: all 0.3s ease;
+
+
+        @include media($desktop) {
+            padding: 0.1em $very-very-thick $thin;
+        }
+
+        img {
+            height: 1.7em;
+            position: relative;
+            top: 10px;
+        }
+
+    }
+    &:hover {
+        a {
+            background-color: darken($primary-color, 5%);
+        }
+        .chevron-right {
+            left: 8px;
+        }
+    }
+    &:active {
+        a {
+            background-color: lighten($primary-color, 5%);
+        }
+
+        .chevron-right {
+            left: 10px;
+        }
+    }
+
+
+
+    //
+    // #tracker-anchor {
+    //     a {
+    //         position: fixed;
+    //         bottom: 0px;
+    //         left: 0px;
+    //         z-index: 100;
+    //
+    //         padding:  0 0 $thin;
+    //         width: 220px;
+    //         text-align: center;
+    //
+    //
+    //         background-color: $contrast-color;
+    //         box-shadow: 0 0 10px 1px rgba(0,0,0,0.12);
+    //
+    //         transition: all 0.3s ease;
+    //
+    //         @include media($tablet) {
+    //             padding: $thin 0 $thick;
+    //             width: 280px;
+    //         }
+    //     }
+    //
+    //     img {
+    //         position: relative;
+    //         top: 10px;
+    //         left: 3px;
+    //         transition: all 0.3s ease;
+    //     }
+    //
+    //
+    // }
+
+
+}
+
+
 .twitter-wrapper {
-    margin: $very-very-thick $very-thick ;
     max-height: 425px;
     overflow-y: scroll;
+    z-index: -100;
     -webkit-overflow-scrolling: touch;
     border: 1px solid #e9e9ec;
     box-shadow: 0px 0px 5px 0 rgba(0,0,0,0.1);
 
     @include media($desktop) {
-        max-height: 400px;
-        margin: 0;
-        margin: $very-thick $very-thick 0;
+        max-height: 360px;
     }
 }
