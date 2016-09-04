@@ -12,6 +12,17 @@
     transition: all 0.3s ease;
 }
 
+.mobile-lb {
+    @include media($tablet) {
+        display: none;
+    }
+}
+.tablet-lb {
+    @include media($desktop) {
+        display: none;
+    }
+}
+
 
 /* =======================================*/
 /* SECTION COLORS*/
@@ -251,16 +262,20 @@
 /* =======================================*/
 
 #intro-banner {
-  color: white;
-  background-color: $primary-color;
-  @include padding($very-thick);
+  color: #000;
+  text-align: center;
   @include span-columns(12);
 
   p {
-    font-family: $primary-font-stack;
+    margin: $thick 0;
+    font-family: $secondary-font-stack;
     font-weight: $medium-font-weight;
+
     font-size: $p;
-    line-height: 1.6;
+    line-height: 1.5;
+  }
+  a {
+      color: $contrast-color;
   }
 }
 
@@ -270,7 +285,7 @@
   height: 0;
   overflow: hidden;
   @include media($desktop){
-    @include margin($very-very-thick null);
+    @include margin($very-very-thick 0 $thick);
   };
 }
 
@@ -285,18 +300,34 @@
 }
 
 .secondary-content {
-  text-align: center;
-  height: 320px;
-  background-color: $primary-color;
-  margin: $very-very-thick 0;
-  @include span-columns(6);
+    @include span-columns(6);
+    a {
+        @include span-columns(12);
+        margin: $thin 0 $thick;
+        font-family: $primary-font-stack;
+        text-align: center;
+        font-weight: normal;
+        font-size: $h1;
+        line-height: 320px;
+        color: #fff;
+        text-shadow: 0px 7px 10px rgba(0,0,0,0.15),
+             0px 14px 2px rgba(0,0,0,0.2),
+             0px 24px 30px rgba(0,0,0,0.2);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+    }
 
-  h3 {
-    font-family: $primary-font-stack;
-    font-weight: normal;
-    font-size: $h3;
-    line-height: 320px;
-  }
+    .about-link {
+        background-image: -webkit-linear-gradient(rgba(3,169,244, 0.65), rgba(3,169,244,0.65)), url("../images/matt-run.jpg");
+        background-image: linear-gradient(rgba(3,169,244, 0.65), rgba(3,169,244, 0.65)), url("../images/matt-run.jpg");
+
+    }
+    .blog-link {
+        background-image: -webkit-linear-gradient(rgba(2,119,189, 0.65), rgba(2,119,189, 0.65)), url("../images/matt-LE.jpg");
+        background-image: linear-gradient(rgba(2,119,189, 0.65), rgba(2,119,189, 0.65)), url("../images/matt-LE.jpg");
+    }
+
 }
 
 /* =======================================*/
@@ -572,9 +603,7 @@
                 position: relative;
                 top: 10px;
             }
-
         }
-
     }
     &:hover {
         a {
