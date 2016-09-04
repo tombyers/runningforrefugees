@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Day One - Tuckingmill to Victoria"
+title: "Day Two - Tuckingmill to Victoria"
 date:   2016-09-04
 author: Matt
 active: blog
