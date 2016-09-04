@@ -272,9 +272,13 @@
     margin: $thick 0;
     font-family: $secondary-font-stack;
     font-weight: $medium-font-weight;
-
     font-size: $p;
     line-height: 1.5;
+
+    @include media($desktop) {
+        margin: $very-very-thick 0;
+        padding: $very-thick 0;
+    }
   }
   a {
       color: $contrast-color;
