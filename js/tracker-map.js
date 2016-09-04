@@ -42,9 +42,9 @@ var positionMarkers = {
             description: "Land's End to Pool",
             icon: {
                 "iconUrl": "../images/pin.png",
-                "iconSize": [44,68],
-                "iconAnchor": [22, 58],
-                "popupAnchor": [0, -60]
+                "iconSize": [ 50, 76],
+                "iconAnchor": [25, 65],
+                "popupAnchor": [0, -68]
             }
 
         },
