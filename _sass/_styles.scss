@@ -510,7 +510,7 @@
     }
 
     @include media($desktop) {
-        height: 750px;
+        height: 800px;
         -webkit-box-flex: 2;
         -ms-flex-positive: 2;
         flex-grow: 2;
@@ -632,7 +632,7 @@
 
 
 .twitter-wrapper {
-    max-height: 425px;
+    max-height: 450px;
     overflow-y: scroll;
     z-index: -100;
     -webkit-overflow-scrolling: touch;
@@ -640,6 +640,6 @@
     box-shadow: 0px 0px 5px 0 rgba(0,0,0,0.1);
 
     @include media($desktop) {
-        max-height: 360px;
+        max-height: 410px;
     }
 }

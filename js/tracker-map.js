@@ -35,24 +35,41 @@ var completedGeoJSON = {
 
 var positionMarkers = {
     type: "FeatureCollection",
-    features: [{
-        type: "Feature",
-        properties: {
-            title: "Day 1: 27 miles",
-            description: "Land's End to Tuckingmill",
-            icon: {
-                "iconUrl": "../images/pin.png",
-                "iconSize": [ 50, 76],
-                "iconAnchor": [25, 65],
-                "popupAnchor": [0, -68]
+    features: [
+        {
+            type: "Feature",
+            properties: {
+                title: "Day 1: 27 miles",
+                description: "Land's End to Tuckingmill",
+                icon: {
+                    "iconUrl": "../images/pin.png",
+                    "iconSize": [ 20, 31],
+                    "iconAnchor": [10, 28],
+                    "popupAnchor": [0, -31]
+                }
+            },
+            geometry: {
+                type: "Point",
+                coordinates: [-5.276,50.2258]
             }
-
-        },
-        geometry: {
-            type: "Point",
-            coordinates: [-5.276,50.2258]
+        },{
+            type: "Feature",
+            properties: {
+                title: "Day 2: 26 miles",
+                description: "Tuckingmill to Victoria",
+                icon: {
+                    "iconUrl": "../images/lead-pin.png",
+                    "iconSize": [ 50, 76],
+                    "iconAnchor": [25, 65],
+                    "popupAnchor": [0, -68]
+                }
+            },
+            geometry: {
+                type: "Point",
+                coordinates: [-4.8314, 50.4277]
+            }
         }
-    }]
+    ]
 }
 
 
