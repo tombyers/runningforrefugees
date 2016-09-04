@@ -52,12 +52,13 @@
 #site-title {
   font-family: $primary-font-stack;
   font-weight: $medium-font-weight;
-  font-size: $h1;
+  font-size: 28px;
   text-align: center;
   color: #fff;
   padding: $thick null;
   @include media($tablet) {
     text-align: left;
+    font-size: $h1;
     @include padding($very-thick null);
     @include span-columns(10);
   }
