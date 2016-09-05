@@ -4,12 +4,12 @@ const completedCoords = completed.features[0].geometry.coordinates;
 const jsonfile = require('jsonfile');
 const completedCoordsFile = 'completedCoords.json';
 
-let completeLatLng = completedCoords.map((i) => {
+var completeLatLng = completedCoords.map((i) => {
         i.pop();
-        let lat = parseFloat(i[0].toFixed(4));
-        let lng = parseFloat(i[1].toFixed(4));
+        var lat = parseFloat(i[0].toFixed(4));
+        var lng = parseFloat(i[1].toFixed(4));
 
-        let latLng = [];
+        var latLng = [];
         latLng.push(lat, lng);
 
         return latLng;

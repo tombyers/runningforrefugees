@@ -1,3 +1,5 @@
+"use strict";
+
 const routeJSON = require('./route.json');
 const routeCoordinates = routeJSON.features[0].geometry.coordinates;
 
@@ -5,12 +7,12 @@ const jsonfile = require('jsonfile');
 const routeCoordsFile = 'routeCoords.json';
 
 
-let routeLatLng = routeCoordinates.map((i) => {
+var routeLatLng = routeCoordinates.map((i) => {
         i.pop()
-        let lat = parseFloat(i[0].toFixed(4));
-        let lng = parseFloat(i[1].toFixed(4));
+        var lat = parseFloat(i[0].toFixed(4));
+        var lng = parseFloat(i[1].toFixed(4));
 
-        let latLng = [];
+        var latLng = [];
         latLng.push(lat,lng);
 
         return latLng;
