@@ -72,7 +72,7 @@ var positionMarkers = {
         },{
             type: "Feature",
             properties: {
-                title: "Day 3: 28 miles",
+                title: "Day 3: 27 miles",
                 description: "Victoria to Polyphant",
                 icon: {
                     "iconUrl": "../images/lead-pin.png",
