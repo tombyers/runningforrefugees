@@ -13,7 +13,7 @@ Unfortunately events after that didn’t really go to plan. Coming towards the e
 <br><br>
 My brother Chris and I stood for a while in the boggy field discussing our options. We had ruled out an attempt to navigate through the roadworks by climbing over fences. We then talked about whether I should run back the way we had come. In the end we settled on a compromise. Chris would drive me round to the road that I needed to be on; the road that we could see just over the other side of the A30. Unfortunately driving there took a long time as we had to wiggle back through the country lanes but we made it in the end and I coaxed my body back into action after it had seized up in the car. 
 <br><br>
-The next challenge was running along the A30. I have completed sections of the road on both days one and two but this section was busier and was not so pleasant to run down. I did however make good time and was glad to complete the final two miles on quiet country lanes. 
+The next challenge was running along the A30. I have completed sections of the road on both days one and two but this section was busier and was not so pleasant to run down. I did however make good time and was glad to complete the final two miles on quiet country lanes. I should mention that if you would like to see the way I ran compared to the route that was planned you can click on 'track my progress' from the home page.
 <br><br>
 I am pleased to say that tomorrow’s route looks much nicer. 
 <br><br>
