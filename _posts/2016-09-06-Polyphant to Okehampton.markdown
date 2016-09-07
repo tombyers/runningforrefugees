@@ -5,6 +5,8 @@ date:   2016-09-06
 author: Matt
 active: blog
 ---
+Sorry for posting this a day late - technical difficulties stopped me from posting it last night!
+<br><br>
 I am going to attempt to keep today’s blog nice and short. Tiredness has really caught up with me today and I still have some exercises to do before I crawl into bed. 
 <br><br>
 Today’s route was much nicer than yesterday and the weather conditions were also kind. I covered the first 11 miles relatively quickly and was particularly excited when I crossed the border into Devon. It felt like a bit of a milestone so I took a selfie (you can see it on my twitter). I met Chris just outside a village called Tinhay (we have really enjoyed some of the place names we have been past so far and Tinhay is up there with my favourites). From there it was a 10 mile stretch along a single road and finally onto the winding roads into Oakhampton. 
