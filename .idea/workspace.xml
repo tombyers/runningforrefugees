@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fecc4b8-b13c-4728-ba86-05a07f6a3534" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/complete/completed.json" afterPath="$PROJECT_DIR$/js/complete/completed.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/complete/completedCoords.json" afterPath="$PROJECT_DIR$/js/complete/completedCoords.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/tracker-map.js" afterPath="$PROJECT_DIR$/js/tracker-map.js" />
@@ -27,18 +28,7 @@
     <favorites_list name="runningforrefugees" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tracker-map.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/tracker-map.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11">
-              <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,9 +52,9 @@
         <option value="$PROJECT_DIR$/_sass/_styles.scss" />
         <option value="$PROJECT_DIR$/_site/js/tracker-map.js" />
         <option value="$PROJECT_DIR$/js/route/route.json" />
-        <option value="$PROJECT_DIR$/js/complete/completed.json" />
         <option value="$PROJECT_DIR$/js/route/compress-route.js" />
         <option value="$PROJECT_DIR$/js/complete/compress-completed.js" />
+        <option value="$PROJECT_DIR$/js/complete/completed.json" />
         <option value="$PROJECT_DIR$/js/complete/completedCoords.json" />
         <option value="$PROJECT_DIR$/js/tracker-map.js" />
         <option value="$PROJECT_DIR$/tracker/index.html" />
@@ -372,23 +362,24 @@
       <workItem from="1473093614116" duration="1143000" />
       <workItem from="1473095062255" duration="32000" />
       <workItem from="1473181131726" duration="78000" />
+      <workItem from="1473319908406" duration="432000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14365000" />
+    <option name="totallyTimeSpent" value="14797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1702" height="1053" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22855464" sideWeight="0.4950249" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22855464" sideWeight="0.49085367" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15277778" sideWeight="0.50497514" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22855464" sideWeight="0.50914633" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -436,40 +427,19 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/tracker-map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tracker/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#263#269#0" expanded="false" />
-            <element signature="e#269#275#0" expanded="false" />
-            <element signature="e#339#345#0" expanded="false" />
-            <element signature="e#345#351#0" expanded="false" />
-            <element signature="e#403#409#0" expanded="false" />
-            <element signature="e#409#415#0" expanded="false" />
-            <element signature="e#415#421#0" expanded="false" />
-            <element signature="e#421#427#0" expanded="false" />
-            <element signature="e#427#433#0" expanded="false" />
-            <element signature="e#433#439#0" expanded="false" />
-            <element signature="e#439#445#0" expanded="false" />
-            <element signature="e#445#451#0" expanded="false" />
-            <element signature="e#451#457#0" expanded="false" />
-            <element signature="e#457#463#0" expanded="false" />
-            <element signature="e#463#469#0" expanded="false" />
-            <element signature="e#469#475#0" expanded="false" />
-            <element signature="e#475#481#0" expanded="false" />
-            <element signature="e#481#487#0" expanded="false" />
-            <element signature="e#487#493#0" expanded="false" />
-            <element signature="e#493#499#0" expanded="false" />
-            <element signature="e#499#505#0" expanded="false" />
-            <element signature="e#505#511#0" expanded="false" />
-            <element signature="e#573#579#0" expanded="false" />
-            <element signature="e#579#585#0" expanded="false" />
-            <element signature="e#585#591#0" expanded="false" />
-            <element signature="e#591#597#0" expanded="false" />
-            <element signature="e#597#603#0" expanded="false" />
-            <element signature="e#603#609#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -485,36 +455,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-          <folding>
-            <element signature="e#263#269#0" expanded="false" />
-            <element signature="e#269#275#0" expanded="false" />
-            <element signature="e#339#345#0" expanded="false" />
-            <element signature="e#345#351#0" expanded="false" />
-            <element signature="e#403#409#0" expanded="false" />
-            <element signature="e#409#415#0" expanded="false" />
-            <element signature="e#415#421#0" expanded="false" />
-            <element signature="e#421#427#0" expanded="false" />
-            <element signature="e#427#433#0" expanded="false" />
-            <element signature="e#433#439#0" expanded="false" />
-            <element signature="e#439#445#0" expanded="false" />
-            <element signature="e#445#451#0" expanded="false" />
-            <element signature="e#451#457#0" expanded="false" />
-            <element signature="e#457#463#0" expanded="false" />
-            <element signature="e#463#469#0" expanded="false" />
-            <element signature="e#469#475#0" expanded="false" />
-            <element signature="e#475#481#0" expanded="false" />
-            <element signature="e#481#487#0" expanded="false" />
-            <element signature="e#487#493#0" expanded="false" />
-            <element signature="e#493#499#0" expanded="false" />
-            <element signature="e#499#505#0" expanded="false" />
-            <element signature="e#505#511#0" expanded="false" />
-            <element signature="e#573#579#0" expanded="false" />
-            <element signature="e#579#585#0" expanded="false" />
-            <element signature="e#585#591#0" expanded="false" />
-            <element signature="e#591#597#0" expanded="false" />
-            <element signature="e#597#603#0" expanded="false" />
-            <element signature="e#603#609#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -608,13 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/complete/completed.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="11393" column="43" selection-start-line="11393" selection-start-column="43" selection-end-line="11393" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/route/route.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -645,52 +579,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/complete/completedCoords.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tracker/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="e#263#269#0" expanded="false" />
-            <element signature="e#269#275#0" expanded="false" />
-            <element signature="e#339#345#0" expanded="false" />
-            <element signature="e#345#351#0" expanded="false" />
-            <element signature="e#403#409#0" expanded="false" />
-            <element signature="e#409#415#0" expanded="false" />
-            <element signature="e#415#421#0" expanded="false" />
-            <element signature="e#421#427#0" expanded="false" />
-            <element signature="e#427#433#0" expanded="false" />
-            <element signature="e#433#439#0" expanded="false" />
-            <element signature="e#439#445#0" expanded="false" />
-            <element signature="e#445#451#0" expanded="false" />
-            <element signature="e#451#457#0" expanded="false" />
-            <element signature="e#457#463#0" expanded="false" />
-            <element signature="e#463#469#0" expanded="false" />
-            <element signature="e#469#475#0" expanded="false" />
-            <element signature="e#475#481#0" expanded="false" />
-            <element signature="e#481#487#0" expanded="false" />
-            <element signature="e#487#493#0" expanded="false" />
-            <element signature="e#493#499#0" expanded="false" />
-            <element signature="e#499#505#0" expanded="false" />
-            <element signature="e#505#511#0" expanded="false" />
-            <element signature="e#573#579#0" expanded="false" />
-            <element signature="e#579#585#0" expanded="false" />
-            <element signature="e#585#591#0" expanded="false" />
-            <element signature="e#591#597#0" expanded="false" />
-            <element signature="e#597#603#0" expanded="false" />
-            <element signature="e#603#609#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/tracker-map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+        <state relative-caret-position="161">
+          <caret line="117" column="46" selection-start-line="117" selection-start-column="46" selection-end-line="117" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracker/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/complete/completed.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="847" column="22" selection-start-line="847" selection-start-column="22" selection-end-line="847" selection-end-column="22" />
           <folding />
         </state>
       </provider>
