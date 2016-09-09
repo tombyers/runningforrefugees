@@ -121,7 +121,7 @@ var positionMarkers = {
         },{
             type: "Feature",
             properties: {
-                title: "Day 5: 27 miles",
+                title: "Day 6: 27 miles",
                 description: "Tiverton to North Petherton",
                 icon: {
                     "iconUrl": "../images/lead-pin.png",
