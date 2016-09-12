@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Day Six - North Petherton to Bristol Airport"
+title: "Day Seven - North Petherton to Bristol Airport"
 date:   2016-09-09
 author: Matt
 active: blog
