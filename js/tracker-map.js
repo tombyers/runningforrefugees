@@ -171,7 +171,7 @@ var positionMarkers = {
         },{
             type: "Feature",
             properties: {
-                title: "Day 9: ",
+                title: "Day 9: 30 miles",
                 description: "Chepstow to Kingsthorne",
                 icon: {
                     "iconUrl": "../images/lead-pin.png",

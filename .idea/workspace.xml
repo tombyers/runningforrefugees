@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fecc4b8-b13c-4728-ba86-05a07f6a3534" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-09-09-North Petherton to Bristol Airport.markdown" afterPath="$PROJECT_DIR$/_posts/2016-09-09-North Petherton to Bristol Airport.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/complete/completed.json" afterPath="$PROJECT_DIR$/js/complete/completed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/complete/completedCoords.json" afterPath="$PROJECT_DIR$/js/complete/completedCoords.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/tracker-map.js" afterPath="$PROJECT_DIR$/js/tracker-map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracker/index.html" afterPath="$PROJECT_DIR$/tracker/index.html" />
     </list>
     <ignored path="runningforrefugees.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,8 +41,8 @@
       <file leaf-file-name="tracker-map.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/tracker-map.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="184" column="46" selection-start-line="184" selection-start-column="46" selection-end-line="184" selection-end-column="46" />
+            <state relative-caret-position="263">
+              <caret line="173" column="39" selection-start-line="173" selection-start-column="39" selection-end-line="173" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -363,12 +358,12 @@
       <workItem from="1473319908406" duration="432000" />
       <workItem from="1473407094438" duration="240000" />
       <workItem from="1473437755340" duration="369000" />
-      <workItem from="1473611318373" duration="1364000" />
+      <workItem from="1473611318373" duration="1473000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16770000" />
+    <option name="totallyTimeSpent" value="16879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -639,8 +634,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/tracker-map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="184" column="46" selection-start-line="184" selection-start-column="46" selection-end-line="184" selection-end-column="46" />
+        <state relative-caret-position="263">
+          <caret line="173" column="39" selection-start-line="173" selection-start-column="39" selection-end-line="173" selection-end-column="39" />
           <folding />
         </state>
       </provider>
