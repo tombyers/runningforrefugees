@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fecc4b8-b13c-4728-ba86-05a07f6a3534" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/tracker-map.js" afterPath="$PROJECT_DIR$/js/tracker-map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracker/index.html" afterPath="$PROJECT_DIR$/tracker/index.html" />
     </list>
     <ignored path="runningforrefugees.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +25,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tracker-map.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tracker/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="15" column="149" selection-start-line="15" selection-start-column="149" selection-end-line="15" selection-end-column="149" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tracker-map.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/tracker-map.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="331">
               <caret line="105" column="35" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -62,10 +82,10 @@
         <option value="$PROJECT_DIR$/js/route/compress-route.js" />
         <option value="$PROJECT_DIR$/js/complete/compress-completed.js" />
         <option value="$PROJECT_DIR$/_posts/2016-09-09-North Petherton to Bristol Airport.markdown" />
-        <option value="$PROJECT_DIR$/tracker/index.html" />
         <option value="$PROJECT_DIR$/js/complete/completed.json" />
         <option value="$PROJECT_DIR$/js/complete/completedCoords.json" />
         <option value="$PROJECT_DIR$/js/tracker-map.js" />
+        <option value="$PROJECT_DIR$/tracker/index.html" />
       </list>
     </option>
   </component>
@@ -124,6 +144,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="runningforrefugees" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="runningforrefugees" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="runningforrefugees" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tracker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -346,12 +380,12 @@
       <workItem from="1473407094438" duration="240000" />
       <workItem from="1473437755340" duration="369000" />
       <workItem from="1473611318373" duration="1473000" />
-      <workItem from="1473711350750" duration="985000" />
+      <workItem from="1473711350750" duration="1179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17864000" />
+    <option name="totallyTimeSpent" value="18058000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -626,17 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracker/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="15" column="149" selection-start-line="15" selection-start-column="149" selection-end-line="15" selection-end-column="149" />
-          <folding>
-            <element signature="e#263#269#0" expanded="false" />
-            <element signature="e#269#275#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/complete/completedCoords.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -649,6 +672,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
           <caret line="105" column="35" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracker/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="15" column="149" selection-start-line="15" selection-start-column="149" selection-end-line="15" selection-end-column="149" />
           <folding />
         </state>
       </provider>
