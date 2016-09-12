@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Day Six - Bristol Airport to Chepstow (Almost)"
+title: "Day Eight - Bristol Airport to Chepstow (Almost)"
 date:   2016-09-11
 author: Matt
 active: blog
