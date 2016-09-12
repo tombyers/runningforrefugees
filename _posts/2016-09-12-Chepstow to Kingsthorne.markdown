@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Day Nine - Chepstow to Kingsthorne"
-date:   2016-09-112
+date:   2016-09-13
 author: Matt
 active: blog
 ---
