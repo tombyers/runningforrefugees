@@ -103,7 +103,7 @@ var positionMarkers = {
         },{
             type: "Feature",
             properties: {
-                title: "Day 5: 27 miles",
+                title: "Day 5: 30.6 miles",
                 description: "Okehampton to Tiverton",
                 icon: {
                     "iconUrl": "../images/pin.png",
