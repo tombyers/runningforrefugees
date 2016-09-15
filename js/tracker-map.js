@@ -201,8 +201,24 @@ var positionMarkers = {
         },{
             type: "Feature",
             properties: {
-                title: "Day 10: 27 miles",
+                title: "Day 11: 27 miles",
                 description: "Ludlow to Shrewsbury",
+                icon: {
+                    "iconUrl": "../images/pin.png",
+                    "iconSize": [ 20, 31],
+                    "iconAnchor": [10, 28],
+                    "popupAnchor": [0, -31]
+                }
+            },
+            geometry: {
+                type: "Point",
+                coordinates: [-2.7609,52.6751]
+            }
+        },{
+            type: "Feature",
+            properties: {
+                title: "Day 12: 27 miles",
+                description: "Shrewsbury to Whitchurch",
                 icon: {
                     "iconUrl": "../images/lead-pin.png",
                     "iconSize": [ 50, 76],
@@ -212,7 +228,7 @@ var positionMarkers = {
             },
             geometry: {
                 type: "Point",
-                coordinates: [-2.7609,52.6751]
+                coordinates: [-2.682126, 52.970340]
             }
         }
     ]
