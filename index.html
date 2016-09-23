@@ -12,11 +12,20 @@ active: home
         <p>This summer, I will be running<br class="mobile-lb"> the length of the UK to raise <br class="tablet-lb">money for The Refugee Council.<br class="mobile-lb"> The charity does amazing work to<br class="desktop-lb"> support the lives of refugees<br class="mobile-lb"> and their efforts have rarely <br class="tablet-lb">been in more urgent need.<br class="mobile-lb"> Please <a href="https://www.justgiving.com/mattisrunningforrefugees/">donate here</a>. Thank you!<br class="mobile-lb"> Matt G.</p>
     </div>
 
-    <div class="secondary-content">
-        <a href="{{ site.baseurl }}about" class="about-link">About</a>
+    <div class="row">
+        <div class="secondary-content">
+            <a href="{{ site.baseurl }}about" class="about-link">About</a>
+        </div>
+
+        <div class="secondary-content">
+            <a href="{% for post in site.posts limit: 1 %}{{ site.baseurl }}{{ post.url }}{% endfor %}" class="blog-link">Blog</a>
+        </div>
     </div>
 
-    <div class="secondary-content">
-        <a href="{% for post in site.posts limit: 1 %}{{ site.baseurl }}{{ post.url }}{% endfor %}" class="blog-link">Blog</a>
-    </div>
+    <!--<div id="rotary-auction">-->
+        <!--<img src="images/rotary_icon.png" alt="rotary-icon"  class="rotary-icon"/>-->
+        <!--<p>Our friends at the Cambridge Rotary Club are holding an auction Help our supporters, the Cambridge Rotary Club, raise even more money</p>-->
+        <!--<a href="http://cambridgerotary.auction-bid.org/micro2.php#items">Place a bid<img src="images/chev-right.svg" alt="chev-right" class="chevron-right"/></a>-->
+    <!--</div>-->
+
 </div>
