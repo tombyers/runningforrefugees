@@ -268,7 +268,6 @@
 /* =======================================*/
 
 #intro-banner {
-  color: #000;
   text-align: center;
   @include span-columns(12);
 
@@ -342,18 +341,25 @@
 #rotary-auction {
   @include span-columns(12);
   margin: 0 0 $very-very-thick;
-  border: 1px solid #e9e9ec;
-  box-shadow: 0px 0px 5px 0 rgba(0,0,0,0.1);
   padding: $thin;
+  position: relative;
+  text-align: center;
 
+  border: 1px solid #e9e9ec;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
 
-  .rotary-icon {
-    width: 120px;
+  p {
+    margin: $thin 0;
+    font-family: $secondary-font-stack;
+    font-weight: $medium-font-weight;
+    font-size: $p;
+    line-height: 1.5;
   }
 
   a {
-
-    padding:  0 0 $thin;
+    display: inline-block;
+    margin: $thick 0;
+    padding: $thin $thick;
     text-align: center;
 
     font-weight: $heavy-font-weight;
@@ -363,6 +369,23 @@
     background-color: $contrast-color;
 
   }
+
+  @include media($tablet) {
+
+    p {
+      margin: 0;
+    }
+
+    img {
+      position: absolute;
+      left: 8px;
+      top: 8px;
+    }
+  }
+}
+
+.rotary-icon {
+  width: 105px;
 }
 
 /* =======================================*/
