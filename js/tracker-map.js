@@ -293,19 +293,18 @@ var positionMarkers = {
                 type: "Point",
                 coordinates: [-3.9384, 56.2372]
             }
+        },{
+            type: "Feature",
+            properties: {
+                title: "Day 23: 27 miles",
+                description: "Dunblane to Aberfeldy",
+                icon: leadPin
+            },
+            geometry: {
+                type: "Point",
+                coordinates: [-3.866, 56.622]
+            }
         }
-        // },{
-        //     type: "Feature",
-        //     properties: {
-        //         title: "Day 23: 27 miles",
-        //         description: "Dunblane to ",
-        //         icon: leadPin
-        //     },
-        //     geometry: {
-        //         type: "Point",
-        //         coordinates: //
-        //     }
-        // }
     ]
 }
 
